@@ -44,7 +44,7 @@ class MyClient extends AkairoClient {
     );
     this.commandHandler = new CommandHandler(this, {
       directory: './Commands/',
-      prefix: ['y+', 'y '],
+      prefix: ['+'],
     });
     this.listenerHandler = new ListenerHandler(this, {
       directory: './Listeners/',
